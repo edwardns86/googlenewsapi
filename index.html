@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Anton|Barlow+Condensed&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <a class="navbar-brand" href="#">
+            <img src="https://png.pngtree.com/png-vector/20190411/ourmid/pngtree-vector-newspaper-icon-png-image_927091.jpg"
+                width="30" height="30" class="d-inline-block align-top" alt="">
+        </a>
+        <h1>ED'S DAILY SPORT</h1>
+        <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Not working yet!" aria-label="Search">
+            <button class="btn btn-outline my-2 my-sm-0 search" type="submit">Search</button>
+        </form>
+    </nav>
+    <div class="row container-fluid">
+        <div class="col filter-actions col-3">
+            <h1>Filters</h1>
+            <div id="numberofarticles"></div>
+            <h3>Sources</h3>
+            <ul id="news-source-checkbox" style="list-style: none;"></ul>
+        </div>
+        <div class="col news-stories-display ">
+            <h1>Latest News</h1>
+            <div class="allnews">
+                <!-- This is the dummy news story used for testing layout initially
+
+                <div class="row border rounded">
+                    <div id="news" class="col-6 ">
+                        <div id="newsitem">
+                            <img class="img-thumbnail border rounded"
+                                src="https://helpx.adobe.com/content/dam/help/en/stock/how-to/visual-reverse-image-search/jcr_content/main-pars/image/visual-reverse-image-search-v2_intro.jpg"
+                                alt="placeholder-image">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <h2 id="headline">Headline</h2>
+                        <p id="tagline">Tag line</p>
+                        <p id="content"> contents </p>
+                        <p id="source">sourced from:</p>
+                        <a href=""> links to original article</a>
+                    </div>
+                </div>
+                --> 
+                <div id="latest">
+                </div>
+                <button type="button" class="btn btn-block" onclick="fetchNews()">Show More News</button>
+            </div>
+        </div>
+    </div>
+    <footer></footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="https://momentjs.com/downloads/moment.js"></script>
+    <script src="js/main.js"> </script>
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+#tagline {
+    font-style: oblique;
+}
+
+.btn {
+    background-color: white;
+    color: #A40000;
+}
+.btn-block {
+    margin: 10px;
+}
+
+h1, h2, h3 , button {
+    font-family: 'Anton', sans-serif;
+}
+
+p, a, li , input{
+    font-family: 'Barlow Condensed', sans-serif;
+}
+ .spacer {
+     margin-top: 5px;
+ }
+
+.news-border {
+    border-left: 7px solid #000000;
+    
+}
+ .news-border-image {
+    border-left: 5px solid #A40000;
+    border-radius: 24px;
+    
+ }
+
+ nav {
+     background-color: #A40000
+ }
+ .navbar > h1 {
+     color: white;
+     justify-items: center;
+ }
+
+ .news-border:hover {
+    transition: transform 1s;
+    transform: scale(1.05);
+ }
